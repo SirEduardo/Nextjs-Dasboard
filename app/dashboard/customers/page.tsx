@@ -1,7 +1,5 @@
-import { fetchCustomers, fetchFilteredCustomers } from "@/app/lib/data";
+import { fetchFilteredCustomers } from "@/app/lib/data";
 import CustomersTable from "@/app/ui/customers/table";
-import { lusitana } from "@/app/ui/fonts";
-import { TableRowSkeleton } from "@/app/ui/skeletons";
 import { Metadata } from "next";
 import { Suspense } from "react";
 

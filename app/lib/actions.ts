@@ -91,7 +91,7 @@ VALUES (${customerId}, ${amountInCents}, ${status}, ${date})
 `;
 } catch (error) {
   return {
-    message: 'Database Error: Failed to Create Invoice.',
+    message: 'Database Error: Failed to Create Invoice.', error
   };
   
 }
